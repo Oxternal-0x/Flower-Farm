@@ -1,6 +1,36 @@
 # Flower-Farm
 Implementing a Scalable Flower Subscription Platform on Firebase: An Actionable Developer's Guide
 This document provides a comprehensive, actionable guide for developers tasked with implementing a global flower subscription platform utilizing Firebase and integrated third-party services. The architecture emphasizes a serverless, event-driven approach to achieve scalability, maintainability, and real-time responsiveness.
+
+## Getting Started: Hello World Example
+
+This repository also includes a simple "Hello, World!" application to demonstrate basic Python application structure and testing.
+
+**Application Code:** `src/hello.py`
+**Test Code:** `tests/test_hello.py`
+
+### Running the Application
+
+To run the "Hello, World!" application, execute the following command from the root of the repository:
+
+```bash
+python -m src.hello
+```
+
+This will print "Hello, World!" to the console.
+
+### Running the Tests
+
+To run the tests for the "Hello, World!" application, execute the following command from the root of the repository:
+
+```bash
+python -m unittest tests.test_hello
+```
+
+This will execute the test case defined in `tests/test_hello.py` and report whether it passes.
+
+---
+
 1. Foundation: Firebase Project Initialization and Service Configuration
 The initial setup of the Firebase project and its core services is a critical first step. Correct configuration at this stage ensures that all subsequent development and integration efforts are built upon a solid and appropriately provisioned foundation.
 1.1. Creating and Configuring Your Firebase Project
